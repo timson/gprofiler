@@ -18,8 +18,12 @@ image:
 
 namespaceOverride: ""
 
+extraVolumes: []
+extraVolumeMounts: []
+
 gprofiler:
   token: TOKEN
   serviceName: SERVICE_NAME
+  serviceHost: ""
   kubernetesEnabled: true
   extraArguments: []
